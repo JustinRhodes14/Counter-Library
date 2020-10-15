@@ -1,0 +1,279 @@
+Counter Library - Made by Justin Rhodes for the 2020 Maxeta Intern Project
+
+We will have two counters made, one to test our standard time functionality, and one to test our military time functionality.
+
+
+Now testing STANDARD counter - Incrementing
+
+Initializing
+
+Final value:
+01:00:00 AM - Standard
+
+Incrementing seconds 59 times...
+
+Final value:
+01:00:59 AM - Standard
+
+Incrementing minutes 59 times...
+
+Final value:
+01:59:59 AM - Standard
+
+Incrementing hours 11 times...
+
+Final value:
+12:59:59 PM - Standard
+
+Incrementing seconds by 1...
+
+Final value:
+01:00:00 PM - Standard
+
+
+
+Now testing STANDARD counter - Decrementing
+Testing: 01:00:00 PM - Standard
+
+Decrementing seconds by 1...
+
+Final value:
+12:59:59 PM - Standard
+
+Decrementing hours by 1...
+
+Final value:
+11:59:59 AM - Standard
+
+Decrementing hours 10 more times...
+
+Final value:
+01:59:59 AM - Standard
+
+Decrementing minutes 59 times...
+
+Final value:
+01:00:59 AM - Standard
+
+Decrementing seconds 59 times...
+
+Final value:
+01:00:00 AM - Standard
+
+Decrementing seconds by 1...
+
+Final value:
+12:59:59 AM - Standard
+
+Testing 24 hour increments now...
+
+Testing: 01:00:00 AM - Standard
+
+Incrementing our time 24 hours...
+Final value:
+01:00:00 AM - Standard
+
+Incrementing our time 1440 minutes...
+Final value:
+01:00:00 AM - Standard
+
+Incrementing our time 86400 seconds...
+Final value:
+01:00:00 AM - Standard
+
+Incrementing our time 24 hours step by step
+01:00:00 AM - Standard
+
+02:00:00 AM - Standard
+
+03:00:00 AM - Standard
+
+04:00:00 AM - Standard
+
+05:00:00 AM - Standard
+
+06:00:00 AM - Standard
+
+07:00:00 AM - Standard
+
+08:00:00 AM - Standard
+
+09:00:00 AM - Standard
+
+10:00:00 AM - Standard
+
+11:00:00 AM - Standard
+
+12:00:00 PM - Standard
+
+01:00:00 PM - Standard
+
+02:00:00 PM - Standard
+
+03:00:00 PM - Standard
+
+04:00:00 PM - Standard
+
+05:00:00 PM - Standard
+
+06:00:00 PM - Standard
+
+07:00:00 PM - Standard
+
+08:00:00 PM - Standard
+
+09:00:00 PM - Standard
+
+10:00:00 PM - Standard
+
+11:00:00 PM - Standard
+
+12:00:00 AM - Standard
+
+01:00:00 AM - Standard
+
+Standard time working as expected, moving on to military time
+
+
+
+Now testing MILITARY counter - Incrementing
+
+Initializing...
+
+Final value:
+01:00:00 - Military
+
+Testing: 01:00:00 - Military
+
+Incrementing seconds 59 times...
+
+Final value:
+01:00:59 - Military
+
+Incrementing minutes 59 times...
+
+Final value:
+01:59:59 - Military
+
+Incrementing hours 11 times...
+
+Final value:
+12:59:59 - Military
+
+Incrementing seconds by 1...
+
+Final value:
+13:00:00 - Military
+
+
+
+Now testing MILITARY counter - Decrementing
+Testing: 13:00:00 - Military
+
+Decrementing seconds by 1...
+
+Final value:
+12:59:59 - Military
+
+Decrementing hours by 1...
+
+Final value:
+11:59:59 - Military
+
+Decrementing hours 10 more times...
+
+Final value:
+01:59:59 - Military
+
+Decrementing minutes 59 times...
+
+Final value:
+01:00:59 - Military
+
+Decrementing seconds 59 times...
+
+Final value:
+01:00:00 - Military
+
+Decrementing seconds by 1...
+
+Final value:
+00:59:59 - Military
+
+Testing 24 hour increments now...
+
+Testing: 01:00:00 - Military
+
+Incrementing our time 24 hours...
+Final value:
+01:00:00 - Military
+
+Incrementing our time 1440 minutes...
+Final value:
+01:00:00 - Military
+
+Incrementing our time 86400 seconds...
+Final value:
+01:00:00 - Military
+
+Incrementing our time 24 hours step by step
+01:00:59 - Military
+
+01:59:59 - Military
+
+02:59:59 - Military
+
+03:59:59 - Military
+
+04:59:59 - Military
+
+05:59:59 - Military
+
+06:59:59 - Military
+
+07:59:59 - Military
+
+08:59:59 - Military
+
+09:59:59 - Military
+
+10:59:59 - Military
+
+11:59:59 - Military
+
+12:59:59 - Military
+
+13:59:59 - Military
+
+14:59:59 - Military
+
+15:59:59 - Military
+
+16:59:59 - Military
+
+17:59:59 - Military
+
+18:59:59 - Military
+
+19:59:59 - Military
+
+20:59:59 - Military
+
+21:59:59 - Military
+
+22:59:59 - Military
+
+23:59:59 - Military
+
+00:59:59 - Military
+
+01:59:59 - Military
+
+
+
+Testing equals function
+false
+true
+
+Military time working as expected, testing concluded
+

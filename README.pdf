@@ -1,0 +1,48 @@
+Counter - Documentation for the Counter Library made by Justin Rhodes for the 2020 Maxeta Intern Project
+
+The counter library is a very straightforward library, simply put, Counter provides a foundation of a timer like object, allowing increments of hours, minutes seconds; while also allowing decrements of all of these attributes.
+
+My Counter class has five attributes listed below:
+
+hours --> Integer value that stores the number of hours in our timer, ensures values do not exceed max values of 12 or 23 dependent on the military variable
+minutes --> Integer value that stores the number of minutes in our timer, ensures values do not exceed max value of 59.
+seconds --> Integer value that stores the number of seconds in our timer, ensures values do not exceed max value of 59.
+morning --> Boolean value that lets us know whether it is AM or PM for standard time (true if AM, false if PM)
+military --> Boolean value that lets us know which time format we are using (true if military, false if standard)
+
+You can construct a Counter instance inputting the variables in the listed order of attributes above
+
+Moving on, we have our standard functions for the library:
+
+#INCREMENTER FUNCTIONS#
+
+void incrHours() --> Increments the hours variable by one, respective of our max values 12 and 23 (12 + 1 = 1 for standard, 23 + 1 = 0 for military)
+void incrMins() --> Increments the minutes variable by one, respective of our max value of 59 (59 + 1 = 0)
+void incrSecs() --> Increments the seconds variable by one, respective of our max value of 59 (59 + 1 = 0)
+
+#DECREMENTER FUNCTIONS#
+void decrHours() --> Decrements the hours variable by one, respective of our min values 1 and 0 (1 - 1 = 12 for standard, 0 - 1 = 23 for military)
+void decrMins() --> Decrements the minutes variable by one, respective of our min value of 0 (0 - 1 = 59)
+void decrSecs() --> Decrements the seconds variable by one, respective of our min value of 0 (0 - 1 = 59)
+
+#GETTER FUNCTIONS#
+int getHours() --> Returns hours variable value for respective instance
+int getMins() --> Returns minutes variable value for respective instance
+int getSecs() --> Returns seconds variable value for respective instance
+boolean getMorning() --> Returns morning variable value for respective instance
+boolean getMilitary() --> Returns military variable value for respective instance
+
+#SETTER FUNCTIONS#
+void setHours(int) --> Sets hours of given instance to given integer
+void setMins(int) --> Sets minutes of given instance to given integer
+void setSecs(int) --> Sets seconds of given instance to given integer
+void setMorning(boolean) --> Sets morning of given instance to given boolean
+void setMilitary(boolean) --> Sets military of given instance to given boolean
+
+#EQUALS & TOSTRING FUNCTIONS#
+String toString() --> Stringifies the respective instance of Counter
+boolean equals(Counter) --> Returns true if two instances of Counter are equal (all attributes are equal), and false otherwise
+
+#TESTING#
+
+In order to test all of the functions of our library, compile the Counter program, and then compile and run the CounterDriver program.
